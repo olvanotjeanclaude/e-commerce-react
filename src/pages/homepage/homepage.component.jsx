@@ -1,10 +1,10 @@
 import "./homepage.style.scss";
-import Directory from "../components/directory/directory.component.jsx";
+import Directory from "../../components/directory/directory.component.jsx";
 
 const HomePage = () => (
   <div className="homepage">
     <h1>Welcome to my Homepage</h1>
-    <Directory></Directory>
+    <Directory/>
   </div>
 );
 
